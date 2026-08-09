@@ -12,7 +12,7 @@ const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
   dialectOptions: {
     ssl: {
       require: true,
-      rejectUnauthorized: false // Required for Neon SSL connection
+      rejectUnauthorized: false // Required for Neon SSL connection 
     }
   }
 });
