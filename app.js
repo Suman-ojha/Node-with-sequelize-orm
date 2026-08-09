@@ -33,7 +33,7 @@ app.use(basepath + '/api', require('./Routers/userRoutes'))
 app.get(basepath + '/', function (req, res) {
     res.send(`
     <h3 style=\"text-align: center; padding: 10% 0; text-transform: uppercase;\">
-        !! this is a secure connection hence cannot be accessed !!
+        !! this is a secure connection hence cannot be accessed , <Suman Ojha/> !!
     </h3>`)
 
 })
