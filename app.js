@@ -8,9 +8,9 @@ require('dotenv').config({ path: path.resolve(envFile) });
 
 
 global.DB_NAME = process.env.DB_NAME
-global.USER = process.env.USER
-global.PASSWORD = process.env.PASSWORD
-global.HOST = process.env.HOST
+global.DB_USER = process.env.DB_USER
+global.DB_PASSWORD = process.env.DB_PASSWORD
+global.DB_HOST = process.env.DB_HOST
 global.JWTSECRET = process.env.JWTSECRET
 global.basepath = ''
 
