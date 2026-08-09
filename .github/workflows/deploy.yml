@@ -56,4 +56,4 @@ jobs:
             EOF
             
             # Pull new image and restart containers with rebuild
-            docker compose --env-file .env.development up -d --build --remove-orphans
+            sudo docker compose --env-file .env.development up -d --build --remove-orphans
